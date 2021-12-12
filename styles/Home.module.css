@@ -114,3 +114,53 @@
     flex-direction: column;
   }
 }
+.navContainer{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 10px;
+}
+.navComponents{
+  width: 70%;
+  display: flex;
+  margin-right: 10%;
+  color: rgb(56, 54, 54);
+}
+.btn{
+  background-color: rgb(75, 196, 75);
+  border: none;
+  padding: 2px 3px;
+  margin: 2px 0px;
+}
+.mainContainer{
+  display: flex;
+
+}
+.accordionDiv{
+  width: 15rem;
+  background-color: rgb(0, 30, 60);
+  height: 100vh;
+  color: white;
+  border: 0.1px solid #5090D3;
+}
+@media (max-width: 600px) {
+  .accordionDiv {
+    width: 100vw;
+  }
+}
+.itemDiv{
+  color: rgb(204, 204, 204);
+  cursor: pointer;
+  padding: 4px;
+  padding-left: 25px;
+  border-radius: 4px;
+  font-size: small;
+}
+.itemDiv:hover{
+  background-color: rgb(8, 27, 46);
+}
+.Page1{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
